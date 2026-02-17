@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    text-align:center;
+}
+
+/* Header */
+h1{
+    background: linear-gradient(90deg,#ff758c,#ff7eb3);
+    color:white;
+    padding:20px;
+    font-size:30px;
+    letter-spacing:2px;
+}
+
+/* Navigation */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+}
+
+/* Left side links */
+.left a{
+    color:white;
+    text-decoration:none;
+    margin-right:25px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+/* Right side link */
+.right a{
+    background:white;
+    color:#764ba2;
+    padding:8px 15px;
+    border-radius:20px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+/* Hover effects */
+.left a:hover{
+    color:#ffeb3b;
+}
+
+.right a:hover{
+    background:#ff758c;
+    color:white;
+}
+
+/* Paragraph */
+p{
+    color:white;
+    margin:25px;
+    font-size:18px;
+}
+
+/* Image */
+img{
+    margin:20px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+img:hover{
+    transform:scale(1.05);
+}
